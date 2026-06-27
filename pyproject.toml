@@ -1,0 +1,9 @@
+[project]
+name = "mergepilot"
+version = "0.1.0"
+description = "Multi-agent system for automated PR creation from GitHub issues"
+requires-python = ">=3.10"
+dependencies = ["groq", "python-dotenv", "requests"]
+
+[tool.setuptools.packages.find]
+include = ["mergepilot*"]
